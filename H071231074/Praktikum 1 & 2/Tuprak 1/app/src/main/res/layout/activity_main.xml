@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
         <!-- Header Section -->
@@ -35,7 +36,7 @@
             android:layout_marginTop="15dp"
             android:contentDescription="@string/profilphoto"
             android:scaleType="centerCrop"
-            android:src="@drawable/Profile"
+            android:src="@drawable/profile"
             app:layout_constraintEnd_toEndOf="@+id/profile_background"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/profile_background" />
@@ -108,20 +109,24 @@
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_margin="4dp"
+                android:contentDescription="Inggris Flag"
                 android:src="@drawable/engflag"
                 android:textStyle="bold"
                 tools:layout_editor_absoluteX="298dp"
-                tools:layout_editor_absoluteY="224dp" />
+                tools:layout_editor_absoluteY="224dp"
+                tools:ignore="HardcodedText" />
 
             <ImageView
                 android:id="@+id/Indo"
                 android:layout_width="27dp"
                 android:layout_height="27dp"
                 android:layout_margin="4dp"
+                android:contentDescription="IndonesiaFlag"
                 android:src="@drawable/indoflag"
                 android:textStyle="bold"
                 tools:layout_editor_absoluteX="333dp"
-                tools:layout_editor_absoluteY="224dp" />
+                tools:layout_editor_absoluteY="224dp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <View
@@ -148,7 +153,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.055"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            tools:ignore="HardcodedText" />
 
         <GridLayout
             android:id="@+id/statistik_container"
@@ -182,7 +188,8 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         tools:layout_editor_absoluteX="36dp"
-                        tools:layout_editor_absoluteY="336dp">
+                        tools:layout_editor_absoluteY="336dp"
+                        tools:ignore="UseCompoundDrawables">
 
                         <ImageView
                             android:layout_width="wrap_content"
