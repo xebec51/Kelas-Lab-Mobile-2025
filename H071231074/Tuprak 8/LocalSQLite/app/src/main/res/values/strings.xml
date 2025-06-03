@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LocalSQLite</string>
+    <string name="add_note">Add Note</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="no_data">No data available</string>
+    <string name="created_at">Created at</string>
+    <string name="updated_at">Updated at</string>
+</resources>
